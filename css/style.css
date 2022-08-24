@@ -511,8 +511,6 @@ body {
     animation-name: move-down;
 }
 
-
-
 .circle_gerencia {
     width: 100px;
     height: 100px;
@@ -532,8 +530,6 @@ body {
     right: -25px;
     animation-name: move-down;
 }
-
-
 
 .circle_recebe {
     width: 100px;
@@ -575,7 +571,6 @@ body {
     animation-name: move-down;
 }
 
-
 .circle_treinamento {
     width: 100px;
     height: 100px;
@@ -595,7 +590,6 @@ body {
     right: -25px;
     animation-name: move-down;
 }
-
 
 .circle_social {
     width: 100px;
@@ -626,33 +620,33 @@ body {
 }
 
 .name_vendemais {
-font-weight: 600;
+    font-weight: 600;
     color: #009ee1;
 }
 
 .name_gerencia {
-font-weight: 600;
+    font-weight: 600;
     color: #1E4FD3;
 }
 
 .name_recebe {
-font-weight: 600;
-    color:#9CC31A;
+    font-weight: 600;
+    color: #9CC31A;
 }
 
 .name_servico {
-font-weight: 600;
+    font-weight: 600;
     color: #FA5757;
 }
 
 .name_treinamento {
-font-weight: 600;
+    font-weight: 600;
     color: #F1F258;
 }
 
 .name_social {
-font-weight: 600;
-    color:#064B02;
+    font-weight: 600;
+    color: #064B02;
 }
 
 .conteudo_card {
@@ -688,7 +682,6 @@ font-weight: 600;
     white-space: nowrap;
 }
 
-
 .btn_vendemais:focus {
     text-decoration: none;
 }
@@ -706,7 +699,6 @@ font-weight: 600;
     box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
     transform: translate(2px, 2px);
 }
-
 
 .btn_gerencia {
     width: 150px;
@@ -735,7 +727,6 @@ font-weight: 600;
     vertical-align: middle;
     white-space: nowrap;
 }
-
 
 .btn_gerencia:focus {
     text-decoration: none;
@@ -783,7 +774,6 @@ font-weight: 600;
     white-space: nowrap;
 }
 
-
 .btn_recebe:focus {
     text-decoration: none;
 }
@@ -801,7 +791,6 @@ font-weight: 600;
     box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
     transform: translate(2px, 2px);
 }
-
 
 .btn_servico {
     width: 150px;
@@ -831,7 +820,6 @@ font-weight: 600;
     white-space: nowrap;
 }
 
-
 .btn_servico:focus {
     text-decoration: none;
 }
@@ -849,7 +837,6 @@ font-weight: 600;
     box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
     transform: translate(2px, 2px);
 }
-
 
 .btn_treinamento {
     width: 150px;
@@ -879,7 +866,6 @@ font-weight: 600;
     white-space: nowrap;
 }
 
-
 .btn_treinamento:focus {
     text-decoration: none;
 }
@@ -897,7 +883,6 @@ font-weight: 600;
     box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
     transform: translate(2px, 2px);
 }
-
 
 .btn_social {
     width: 150px;
@@ -927,7 +912,6 @@ font-weight: 600;
     white-space: nowrap;
 }
 
-
 .btn_social:focus {
     text-decoration: none;
 }
@@ -950,7 +934,6 @@ font-weight: 600;
     to {
         transform: translateY(-10px);
     }
-
 }
 
 @keyframes move-down {
@@ -1129,21 +1112,18 @@ font-weight: 600;
 */
 
 @media (max-width: 511px) {
-
     .card_produtos {
         grid-template-columns: 100%;
     }
-
     .button_principal {
         width: 60%;
     }
     .button_secondary {
         width: 60%;
     }
-
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .title {
         font-size: 30px;
         padding: 30px 60px 15px;
@@ -1152,18 +1132,14 @@ font-weight: 600;
         font-size: 20px;
     }
     .button_principal {
-        width: 100%;
+        width: 60%;
     }
     .button_secondary {
         width: 60%;
     }
-
     .card_produtos {
-    
-    grid-template-columns: 50% 50%;
-    
-}
-
+        grid-template-columns: 50% 50%;
+    }
 }
 
 @media (min-width: 1060px) {
@@ -1174,10 +1150,7 @@ font-weight: 600;
     .subtitle {
         font-size: 25px;
     }
-
-     .card_produtos {
-    
-    grid-template-columns: 33% 33% 33%;
-    
-}
+    .card_produtos {
+        grid-template-columns: 33% 33% 33%;
+    }
 }
