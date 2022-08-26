@@ -70,7 +70,7 @@ reset
     samp,
     small,
     strike,
-    strong,
+    
     sub,
     sup,
     tt,
@@ -220,6 +220,8 @@ global styles
         margin-bottom: 30px;
         position: relative;
     }
+
+
     
 
 .content {
@@ -374,21 +376,7 @@ global styles
     }
     
     @media (max-width: 991px) {
-        html,
-        body {
-            overflow-x: hidden;
         }
-        .mobile-top-fix {
-            margin-top: 30px;
-            margin-bottom: 0px;
-        }
-        .mobile-bottom-fix {
-            margin-bottom: 30px;
-        }
-        .mobile-bottom-fix-big {
-            margin-bottom: 60px;
-        }
-    }
     
     a.main-button-slider {
         font-size: 13px;
